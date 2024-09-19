@@ -1,0 +1,43 @@
+.container {
+  padding: 16px;
+}
+
+.filter-field {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 16px;
+}
+
+.table-container {
+  position: relative;
+  overflow: auto;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+.mat-header-cell {
+  color: white;
+  font-weight: bold;
+}
+
+.mat-cell, .mat-header-cell {
+  padding: 8px;
+}
+
+.data-row:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .filter-field {
+    max-width: 100%;
+  }
+
+  .mat-header-cell, .mat-cell {
+    padding: 4px;
+    font-size: 12px;
+  }
+}
