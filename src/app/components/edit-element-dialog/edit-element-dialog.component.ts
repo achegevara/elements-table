@@ -8,7 +8,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, NgForm } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
-import { PeriodicElement } from "../periodic-table/periodic-table.component";
+import { PeriodicElement } from "../../periodic-table.state";
 
 
 @Component({
